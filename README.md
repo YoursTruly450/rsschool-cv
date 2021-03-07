@@ -1,2 +1,2 @@
 # rsschool-cv
-https://YoursTruly450.github.io/rsschool-cv/index.html
+https://YoursTruly450.github.io/rsschool-cv/
