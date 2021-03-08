@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section>
-      <figure><img src="./avatar.jpg" alt=""></figure>
+      <h2>CV Mikhail ELUFERIEV, 2021-03-08</h2>
+      <figure><img class="img-avatar" src="./avatar.jpg" alt="Photo must be here"></figure>
       <ol>
         <li>
           <span>Name Surname:</span>
@@ -17,7 +19,7 @@
           <span>Contacts:</span>
           <ul>
             <li>e-mail:
-              <span class="span-text-normal">yourstryly.bill@gmail.com</span>
+              <span class="span-text-normal">yourstruly.bill@gmail.com</span>
             </li>
             <li>telegramm:
               <span class="span-text-normal">@YT_YT</span>
@@ -34,30 +36,27 @@
         </li>
         <li>
           <span>Skills:</span>
-          <p>
-            <ul>
-              <li>programming skills:
-                <ul>
-                  <li class="span-text-normal">JS</li>
-                  <li class="span-text-normal">Java</li>
-                  <li class="span-text-normal">Python</li>
-                  <li class="span-text-normal">VB</li>
-                </ul>
-              </li>
-              <li>frameworks:
-                <ul>
-                  <li class="span-text-normal">VueJS</li>
-                  <li class="span-text-normal">Android Studio</li>
-                </ul>
-              </li>
-            </ul>
-          </p>
+          <ul>
+            <li>programming skills:
+              <ul>
+                <li class="span-text-normal">JS</li>
+                <li class="span-text-normal">Java</li>
+                <li class="span-text-normal">Python</li>
+                <li class="span-text-normal">VB</li>
+              </ul>
+            </li>
+            <li>frameworks:
+              <ul>
+                <li class="span-text-normal">VueJS</li>
+                <li class="span-text-normal">Android Studio</li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li>
           <span>Code examples:</span>
-          <p>
-            <pre><!--
-              --><code>
+          <pre><!--
+            --><code>
   OnContext(value){
     let sDate = value.selectedYMD;
     let dDate = new Date(sDate);
@@ -67,9 +66,8 @@
         this.stringDate = dDate.toLocaleString('RU').split(',')[0];
     }
   },
-              </code><!--
-            --></pre>
-          </p>
+            </code><!--
+          --></pre>
         </li>
         <li>
           <span>Experience:</span>
@@ -102,5 +100,14 @@
         </li>
       </ol>
     </section>
+    <footer>
+      <div class="inline-footer">
+        <figure>
+          <a href="https://rs.school/js/"><img class="img-footer" src="./rs_school_js.svg" alt="RS school logo"></a>
+        </figure>
+        <a class="link-footer" href="https://github.com/YoursTruly450/rsschool-cv">YoursTruly450 Git</a>
+        <span class="link-footer">(C) 2021</span>
+      </div>
+    </footer>
  </body>
 </html>
